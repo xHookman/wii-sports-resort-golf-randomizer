@@ -1,0 +1,33 @@
+# Fichiers du jeu et tout ce qui en est tiré : jamais dans le dépôt
+*.carc
+*.arc
+*.brres
+*.kcl
+*.pmp
+*.dol
+*.wbfs
+*.iso
+*.tpl
+*.pkl
+x/
+files/
+out/
+pool*/
+full*/
+
+# Compilés
+*.o
+*.elf
+*.bin
+*.so
+gen_host
+gen_asan
+gen_dbg
+qload
+qtest
+kcltest
+__pycache__/
+
+# Rendus (tirés des cartes du jeu)
+*.png
+*.json
